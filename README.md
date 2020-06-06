@@ -1,5 +1,10 @@
-# Container Action Template
+# message-loop
 
-To get started, click the `Use this template` button on this repository [which will create a new repository based on this template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/).
+Print a message every second a specified number of times
 
-For info on how to build your first Container action, see the [toolkit docs folder](https://github.com/actions/toolkit/blob/master/docs/container-action.md).
+```yaml
+uses: bryanmacfarlane/message-loop-action@master
+with:
+  message: 'Hello container action!'
+  count: 12
+```
